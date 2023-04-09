@@ -116,9 +116,9 @@ import java.util.*;                 //¼ÓÔØ°ü£¬ÒªÓÃµ½ÆäÖĞµÄLinkedListºÍArrayListÀ
     double setRent()                              //¼ÆËã×âÔÄ×Ü·ÑÓÃ
    	{
    		if(rentDays<=deadTime)
-   			rent=rentDays*normalRent*renter.getPencent() ;      //ÔÚ¹æ¶¨ÆÚÏŞÄÚ°´Õı³£×âÔÄ·ÑÂÊ¼ÆËã×â½ğ
+   			rent=rentDays*normalRent*renter.getPercent() ;      //ÔÚ¹æ¶¨ÆÚÏŞÄÚ°´Õı³£×âÔÄ·ÑÂÊ¼ÆËã×â½ğ
    		else
-   			rent=((rentDays-deadTime)*delayRent+deadTime*normalRent)*renter.getPencent(); //³¬ÆÚ×â½ğ
+   			rent=((rentDays-deadTime)*delayRent+deadTime*normalRent)*renter.getPercent(); //³¬ÆÚ×â½ğ
    		return rent;
    	}
    	boolean renting( )             //ÊµÀı·½·¨£ºÖ§¸¶×â½ğ
